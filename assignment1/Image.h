@@ -1,11 +1,3 @@
-//------------------------------------------------------------
-//
-// C++ course assignment code 
-//
-// G. Papaioannou, 2017 - 2018
-//
-//
-
 #ifndef _IMAGE
 #define _IMAGE
 
