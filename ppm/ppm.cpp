@@ -1,6 +1,3 @@
-// Georgakopoulos Panagiotis 3090033
-// Anastasakos Marios-Dionysios 3090278
-
 #include "ppm.h"
 #include "../assignment1/Image.h"
 #include "../assignment1/Color.h"
