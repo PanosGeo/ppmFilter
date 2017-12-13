@@ -1,6 +1,3 @@
-// Georgakopoulos Panagiotis 3090033
-// Anastasakos Marios-Dionysios 3090278
-
 #include "Image.h"
 #include "../ppm/ppm.h"
 #include <iostream>
