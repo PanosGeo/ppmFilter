@@ -15,10 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Color.h">
+    <ClInclude Include="Image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Image.h">
+    <ClInclude Include="Vec3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterLinear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterGamma.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -27,6 +39,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterLinear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterGamma.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

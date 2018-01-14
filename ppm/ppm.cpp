@@ -1,6 +1,5 @@
 #include "ppm.h"
 #include "../assignment1/Image.h"
-#include "../assignment1/Color.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -49,7 +48,7 @@ namespace imaging {
 		*h = atoi(header[2].c_str()); //makes the argumet(string) "height" an integer
 
 		unsigned int size = 3*(*w)*(*h);
-		component_t *imgBuffer = new component_t[size]; //buffer to store image (binary) data
+		float *imgBuffer = new float[size]; //buffer to store image (binary) data
 		for (unsigned int i = 0; i < size; i++) {
 			imgBuffer[i] = (unsigned int)imgFile.get() / 255.0f;
 		}

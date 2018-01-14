@@ -69,10 +69,10 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <TargetName>neg</TargetName>
+    <TargetName>filterd</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <TargetName>neg</TargetName>
+    <TargetName>filter</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -121,10 +121,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Color.h" />
+    <ClInclude Include="Array.h" />
+    <ClInclude Include="Filter.h" />
+    <ClInclude Include="FilterGamma.h" />
+    <ClInclude Include="FilterLinear.h" />
     <ClInclude Include="Image.h" />
+    <ClInclude Include="Vec3.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="FilterGamma.cpp" />
+    <ClCompile Include="FilterLinear.cpp" />
     <ClCompile Include="Image.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
